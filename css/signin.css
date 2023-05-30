@@ -15,7 +15,7 @@
 }
 .form-box{
     border-radius: 10px;
-    width: 90%;
+  
     max-width: 450px;
     
     top: 20%;
@@ -27,8 +27,7 @@
 .input-field>i{
    padding: 20px;
    color: blue;
-
-font-size: 25px;
+   font-size: 25px;
  
 }
 .input-field>input{
@@ -52,7 +51,6 @@ font-size: 25px;
 
 
 #signin{
-   
     margin-bottom: 30px;
     padding: 10px;  
    color: white;
@@ -69,15 +67,52 @@ font-size: 25px;
     left: 30%;
    padding-bottom: 20px;
     font-family: sans-serif;
-   
+
 }
+
 .createaccount>a{
     text-decoration: none;
 }
+
 .forgotpassword{
 text-decoration: none;
 font-size: 14px;
 left: 39%;
 font-family: sans-serif;
 bottom: 10px;
+}
+
+@media only screen and (max-width:480px)
+{
+    .form-box{
+   width: 280px;
+top: 10%;
+    }
+
+    .input-field>input{
+        margin-bottom: 20px;
+        padding: 6px;  
+        width: 150px;
+        font-size: 14px;
+       }
+
+    #signin{
+        margin-bottom: 20px;
+        padding: 6px;  
+        width: 120px;
+        font-size: 14px;
+        left: 30%;
+    }
+
+    .createaccount{
+        font-size: 10px;
+        left: 25%;
+       padding-bottom: 6px;
+    }
+
+    .forgotpassword{
+    font-size: 10px;
+    left: 39%;
+    bottom: 6px;
+    }
 }
